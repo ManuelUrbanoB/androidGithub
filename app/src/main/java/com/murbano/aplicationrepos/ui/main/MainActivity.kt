@@ -16,8 +16,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private val userViewModel: ReposViewModel by viewModel()
-    var numberOfPage = 1
-    val perPage = 8
+    private var numberOfPage = 1
+    private val perPage = 8
 
     private val reposObserver: Observer<List<RepoResponse>> = Observer { response ->
         uploadItemRepoAdapter(response)
