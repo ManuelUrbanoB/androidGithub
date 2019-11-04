@@ -1278,8 +1278,11 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id text_description
 id text_input_password_toggle
+id text_name
 id text_password
+id text_url
 id text_username
 id textinput_counter
 id textinput_error
@@ -1363,6 +1366,7 @@ layout abc_tooltip
 layout activity_login
 layout activity_main
 layout activity_search
+layout adapter_repo
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
