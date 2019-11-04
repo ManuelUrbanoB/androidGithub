@@ -2,7 +2,6 @@ package com.murbano.aplicationrepos.ui.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import com.murbano.aplicationrepos.R
 import com.murbano.aplicationrepos.models.users.UserLogin
@@ -44,7 +43,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun responseLoginUser(userLoginResponse: UserLoginResponse){
         if(userLoginResponse.success){
-            startActivity<MainActivity>("username" to text_username.editText?.text.toString())
+                startActivity<MainActivity>("username" to text_username.editText?.text.toString())
             return
         }
         userLoginResponse.message?.let {  this.toast(it) }

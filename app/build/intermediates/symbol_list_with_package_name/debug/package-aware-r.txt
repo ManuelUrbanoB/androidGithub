@@ -1129,7 +1129,9 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_back
 id btn_login_user
+id btn_next
 id buttonPanel
 id center
 id center_horizontal
@@ -1219,6 +1221,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id recycler_repos_main
 id right
 id right_icon
 id right_side
@@ -1425,6 +1428,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
+string back
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
@@ -1433,6 +1437,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string login
 string mtrl_chip_close_icon_content_description
+string next
 string password
 string password_toggle_content_description
 string path_password_eye

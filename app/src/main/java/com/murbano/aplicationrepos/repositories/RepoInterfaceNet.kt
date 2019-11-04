@@ -7,6 +7,6 @@ import retrofit2.http.Path
 
 interface RepoInterfaceNet {
 
-    @GET("repositories/myrepos/:name/:page:/perPage")
-    fun getResposUser(@Path("name") username: String, @Path("page") page: Int, @Path("perPage") perPage: Int): Call<List<RepoResponse>>
+    @GET("/repositories/myrepos/{name}/{page}/{per_page}")
+    fun getResposUser(@Path("name") name: String, @Path("page") page: Int, @Path("per_page") perPage: Int): Call<List<RepoResponse>>
 }
