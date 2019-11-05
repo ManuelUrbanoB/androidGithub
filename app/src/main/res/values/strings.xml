@@ -5,4 +5,7 @@
     <string name="login">Ingresar</string>
     <string name="back">Anterior</string>
     <string name="next">Siguiente</string>
+    <string name="language">Lenguaje</string>
+    <string name="name">Nombre</string>
+    <string name="search">Buscar</string>
 </resources>

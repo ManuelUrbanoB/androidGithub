@@ -11,7 +11,9 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.murbano.aplicationrepos.models.repos.RepoUser
 import com.murbano.aplicationrepos.ui.adapters.RepoAdapter
+import com.murbano.aplicationrepos.ui.search.SearchActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.startActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,6 +35,9 @@ class MainActivity : AppCompatActivity() {
         userViewModel.reposUserMutable.observe(this, reposObserver)
         initRecycler()
         configureButtonsPaginate()
+        btn_search.setOnClickListener {
+            startActivity<SearchActivity>()
+        }
         btn_next.setOnClickListener {
             numberOfPage += 1
             reloadRepoPaginate()

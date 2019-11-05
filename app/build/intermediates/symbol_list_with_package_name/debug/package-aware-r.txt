@@ -1132,6 +1132,7 @@ id bottom
 id btn_back
 id btn_login_user
 id btn_next
+id btn_search
 id buttonPanel
 id center
 id center_horizontal
@@ -1143,6 +1144,8 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id constraintLayout
+id constraintLayout2
 id container
 id content
 id contentPanel
@@ -1283,8 +1286,10 @@ id textSpacerNoTitle
 id textStart
 id text_description
 id text_input_password_toggle
+id text_language
 id text_name
 id text_password
+id text_total
 id text_url
 id text_username
 id textinput_counter
@@ -1435,8 +1440,10 @@ string character_counter_pattern
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
+string language
 string login
 string mtrl_chip_close_icon_content_description
+string name
 string next
 string password
 string password_toggle_content_description
@@ -1444,6 +1451,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string search
 string search_menu_title
 string status_bar_notification_info_overflow
 string usuario
